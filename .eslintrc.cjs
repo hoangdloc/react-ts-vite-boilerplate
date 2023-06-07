@@ -8,6 +8,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
+    'plugin:jsx-a11y/recommended',
     'standard-with-typescript',
     'plugin:prettier/recommended'
   ],
@@ -38,6 +39,20 @@ module.exports = {
     '@typescript-eslint/semi': 'off',
     'no-console': 'error',
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn'
+    'react-hooks/exhaustive-deps': 'warn',
+    'prettier/prettier': [
+      'error',
+      {
+        semi: true,
+        singleQuote: true,
+        arrowParens: 'avoid',
+        trailingComma: 'none',
+        printWidth: 80,
+        singleAttributePerLine: true,
+        useTabs: false,
+        tabWidth: 2,
+        endOfLine: 'auto'
+      }
+    ]
   }
 };

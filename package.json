@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "lint:fix": "eslint --cache --fix src",
+    "lint:fix": "eslint --fix src",
     "format": "prettier src --write",
     "preview": "vite preview",
     "test": "vitest",

@@ -3,7 +3,7 @@
 ## Setup
 
 ```bash
-// Install all dependency
+// Install all dependencies
 yarn
 
 // Install husky
